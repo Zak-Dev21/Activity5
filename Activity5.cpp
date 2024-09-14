@@ -1,7 +1,10 @@
 
 #include <iostream>
+#include <iomanip>
+
+using namespace std;
 
 int main()
 {
-	std::cout << 13.143256136346 << std::endl;
+	cout << fixed << 13.143256136346 << std::endl;
 }
